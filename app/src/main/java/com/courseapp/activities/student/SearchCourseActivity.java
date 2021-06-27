@@ -91,4 +91,4 @@ public class SearchCourseActivity extends AppCompatActivity {
         };
         courseList.setAdapter(adapter);
     }
-}
+} 
