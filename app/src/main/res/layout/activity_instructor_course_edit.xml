@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".activities.instructor.InstructorCourseEdit">
+
+    <LinearLayout
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:text="Course Details"
+            android:padding="18dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:fontFamily="@font/quicksand_regular"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/course_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:fontFamily="@font/quicksand_bold"
+            android:layout_marginBottom="10dp"
+            android:padding="6dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Code"
+            android:fontFamily="@font/quicksand_regular"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/course_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COU 202"
+            android:fontFamily="@font/quicksand_bold"
+            android:layout_marginBottom="10dp"
+            android:padding="6dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Instructor"
+            android:fontFamily="@font/quicksand_regular"
+            android:padding="6dp"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/course_instructor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NA"
+            android:fontFamily="@font/quicksand_bold"
+            android:layout_marginBottom="10dp"
+            android:padding="6dp"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/assign_button"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:elevation="0dp"
+        android:textSize="16sp"
+        android:background="@drawable/button_accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_bold"
+        android:textColor="@android:color/black"
+        android:text="Assign as Instructor"
+        android:textAllCaps="false"
+        android:padding="12dp"/>
+
+    <Button
+        android:id="@+id/config_button"
+        android:layout_margin="18dp"
+        android:elevation="0dp"
+        android:textSize="16sp"
+        android:background="@drawable/button_accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_bold"
+        android:textColor="@android:color/black"
+        android:text="Configure"
+        android:textAllCaps="false"
+        android:padding="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="14dp"
+    android:gravity="center"
+    android:layout_margin="4dp"
+    android:background="@drawable/dashboard_button"
+    android:layout_height="wrap_content">
+    
+    <ImageView
+        android:layout_width="64dp"
+        android:layout_height="58dp"
+        android:src="@drawable/course_manage"
+        android:layout_marginEnd="10dp"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Course Name"
+            android:padding="6dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/quicksand_semibold"
+            android:id="@+id/course_name"
+            android:textSize="17sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CODE"
+            android:layout_marginTop="-6dp"
+            android:padding="6dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/quicksand_regular"
+            android:id="@+id/course_code"
+            android:textSize="14sp"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/edit_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_edit"
+        android:tint="@color/colorPrimaryDark"
+        tools:src="@android:drawable/ic_menu_edit" />
+
+    <ImageButton
+        android:id="@+id/delete_button"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_margin="8dp"
+        android:background="@android:color/transparent"
+        android:src="@android:drawable/ic_menu_delete"
+        android:tint="@color/colorPrimaryDark"
+        tools:src="@android:drawable/ic_menu_delete" />
+
+</LinearLayout>

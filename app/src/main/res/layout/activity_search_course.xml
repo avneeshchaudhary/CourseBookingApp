@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.student.SearchCourseActivity">
+
+    <LinearLayout
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <EditText
+            android:alpha="0.8"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimaryDark"
+            android:drawableTint="@color/colorPrimaryDark"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:background="@drawable/search_bar"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:hint="Search"
+            android:drawableStart="@android:drawable/ic_menu_search"
+            android:drawablePadding="12dp"
+            android:id="@+id/searchbar"
+            android:padding="6dp"
+            android:fontFamily="@font/quicksand_regular"
+            android:gravity="center_vertical"/>
+
+        <ImageButton
+            android:onClick="searchCourse"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/button_accent"
+            android:src="@android:drawable/ic_menu_search"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"
+            android:tint="@color/colorPrimaryDark"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No course found!"
+        android:textAlignment="center"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:visibility="gone"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/quicksand_medium"
+        android:id="@+id/not_found"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/courseList"/>
+
+</LinearLayout>

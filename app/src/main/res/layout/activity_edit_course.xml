@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activities.admin.coursemanagement.EditCourse">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/quicksand_bold"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textAlignment="center"
+            android:text="@string/edit_course"
+            android:padding="18dp"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:background="@drawable/field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_code"
+        android:hint="@string/course_code"
+        android:fontFamily="@font/quicksand_regular"
+        android:padding="14dp"
+        android:textColor="@color/colorPrimary"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="16dp"/>
+
+    <EditText
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course_name"
+        android:hint="@string/course_name"
+        android:fontFamily="@font/quicksand_regular"
+        android:padding="14dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginTop="12dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:onClick="saveCourseDetails"
+        android:layout_margin="18dp"
+        android:elevation="0dp"
+        android:textSize="16sp"
+        android:background="@drawable/button_accent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/quicksand_bold"
+        android:textColor="@android:color/black"
+        android:text="@string/save_changes"
+        android:textAllCaps="false"
+        android:padding="12dp"/>
+
+</LinearLayout>

@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">CourseApp</string>
+    <string name="user_login">User Login</string>
+    <string name="student">Student</string>
+    <string name="instructor">Instructor</string>
+    <string name="admin">Admin</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="signin">SignIn</string>
+    <string name="new_user_click_here_to_signup">New User? Click here to signup.</string>
+    <string name="new_user">New User</string>
+    <string name="re_enter_password">Confirm Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="login_req">Existing User? Click here to login</string>
+    <string name="logout">Logout</string>
+    <string name="manage_students">Manage Students</string>
+    <string name="manage_instructors">Manage Instructors</string>
+    <string name="manage_courses">Manage Courses</string>
+    <string name="my_enrollments">My Enrollments</string>
+    <string name="my_courses">My Courses</string>
+    <string name="view_courses">View Courses</string>
+    <string name="username_length">Username should be atleast 4 characters long</string>
+    <string name="password_length">Password must be atleast 4 characters long</string>
+    <string name="password_confirmation">Please re-enter same password</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="short_description_optional">Short Description (Optional)</string>
+    <string name="course_name">Course Name</string>
+    <string name="course_code">Course Code</string>
+    <string name="edit_course">Edit Course</string>
+    <string name="new_course">New Course</string>
+    <string name="add_course">Add Course</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="monday">Monday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+</resources>
