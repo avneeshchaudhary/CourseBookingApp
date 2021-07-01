@@ -3,3 +3,4 @@
 Avneesh Chaudhary<br>
 Guneet Randhawa <br>
 Senoussi Al-Nadjib
+Angelo Ayoub
