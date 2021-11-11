@@ -1,4 +1,4 @@
-# CourseBookingApp
+# Course Booking Application
 ## Authors
 Avneesh Chaudhary<br>
 Guneet Randhawa <br>
